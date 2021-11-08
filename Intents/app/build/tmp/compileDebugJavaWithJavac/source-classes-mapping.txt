@@ -1,0 +1,6 @@
+com/example/intents/BuildConfig.java
+ com.example.intents.BuildConfig
+com/example/intents/CreateMessageActivity.java
+ com.example.intents.CreateMessageActivity
+com/example/intents/ReceiveMessageActivity.java
+ com.example.intents.ReceiveMessageActivity

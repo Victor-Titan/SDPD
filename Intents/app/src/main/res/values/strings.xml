@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="send">SEND MESSAGE</string>
+    <string name="chooser">Send message...</string>
+</resources>

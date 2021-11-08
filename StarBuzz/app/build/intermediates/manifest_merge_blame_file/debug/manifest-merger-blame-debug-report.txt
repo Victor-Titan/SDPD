@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.starbuzz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:5:5-32:19
+12        android:allowBackup="true"
+12-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /home/titan/.gradle/caches/transforms-3/e759884e8e1539e68246ec4d8729cc98/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:11:9-40
+22        <activity
+22-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:12:9-15:39
+23            android:name="com.example.starbuzz.DrinkActivity"
+23-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:13:13-42
+24            android:exported="true"
+24-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:15:13-36
+25            android:parentActivityName="com.example.starbuzz.DrinkCategoryActivity" />
+25-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:14:13-64
+26        <activity
+26-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:16:9-20:39
+27            android:name="com.example.starbuzz.DrinkCategoryActivity"
+27-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:17:13-50
+28            android:exported="true"
+28-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:20:13-36
+29            android:label="@string/item_select"
+29-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:18:13-48
+30            android:parentActivityName="com.example.starbuzz.TopLevelActivity" />
+30-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:19:13-59
+31        <activity
+31-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:21:9-31:20
+32            android:name="com.example.starbuzz.TopLevelActivity"
+32-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:22:13-45
+33            android:exported="true"
+33-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:24:13-36
+34            android:label="@string/select_category" >
+34-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:23:13-52
+35            <intent-filter>
+35-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:27:17-69
+36-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:29:17-77
+38-->/home/titan/SDPD_Projects/StarBuzz/app/src/main/AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>

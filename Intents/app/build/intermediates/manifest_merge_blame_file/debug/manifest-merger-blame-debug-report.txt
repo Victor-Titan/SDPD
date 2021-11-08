@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.intents"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:5:5-31:19
+12        android:allowBackup="true"
+12-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /home/titan/.gradle/caches/transforms-3/e759884e8e1539e68246ec4d8729cc98/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.Intents" >
+21-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:11:9-45
+22        <activity
+22-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:12:9-21:20
+23            android:name="com.example.intents.ReceiveMessageActivity"
+23-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:13:13-51
+24            android:exported="true" >
+24-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:14:13-36
+25            <intent-filter>
+25-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:15:13-20:29
+26                <action android:name="android.intent.action.SEND" />
+26-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:16:17-68
+26-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.DEFAULT" />
+28-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:17:17-75
+28-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:17:27-73
+29
+30                <data android:mimeType="text/plain" />
+30-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:18:17-54
+30-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:18:23-52
+31                <data android:mimeType="image/*" />
+31-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:18:17-54
+31-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:18:23-52
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:22:9-30:20
+35            android:name="com.example.intents.CreateMessageActivity"
+35-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:23:13-50
+36            android:exported="true" >
+36-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:24:13-36
+37            <intent-filter>
+37-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:26:17-69
+38-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:28:17-77
+40-->/home/titan/SDPD_Projects/Intents/app/src/main/AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
